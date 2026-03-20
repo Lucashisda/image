@@ -35,7 +35,7 @@ public class ImageController {
                 return ResponseEntity.badRequest().body("Arquivo vazio");
             }
 
-            log.info("Tamanho do arquivo recebido: {} bytes", file.getSize());
+            log.info("Tamanho do arquivo recebido: {  } bytes", file.getSize());
             log.info("Nome definido para a imagem: {}", name);
             log.info("Tags: {}", tags);
 
